@@ -12,6 +12,7 @@ Source0:	ftp://ftp.kernel.org/pub/linux/daemons/raid/alpha/raidtools-19990824-0.
 Patch0:		raidtools-0.90-64bit-lseek.patch.bz2
 Patch1:		raidtools-0.90-variable-pagesize.patch.bz2
 Patch2:		raidtools-0.90-warnings.patch.bz2
+BuildRoot:	%{_tmppath}/%{name}-root
 Obsoletes:	md, md-tools
 Provides:	md md-tools
 Conflicts:	kernel < 2.2
