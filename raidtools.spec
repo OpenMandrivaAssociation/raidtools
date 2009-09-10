@@ -1,6 +1,6 @@
 %define name	raidtools
 %define version	0.90
-%define release	%mkrel 15
+%define release	%mkrel 16
 
 Summary:	Tools for creating and maintaining software RAID devices
 Name:		%{name}
